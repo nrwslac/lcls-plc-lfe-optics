@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{8EA43E81-D516-D9F3-26C3-34188FC0B4D7}" GeneratedBy="TwinCAT XAE Plc">
+<TcModuleClass xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2009/05/TcModuleClass" Hash="{9053EB3E-5374-3D58-1B9A-3E80BDBFEE62}" GeneratedBy="TwinCAT XAE Plc">
   <DataTypes>
     <DataType>
       <Name Namespace="Tc2_SerialCom">ComSerialLineMode_t</Name>
@@ -3472,31 +3472,31 @@
         <Name>bBusy</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>82057856</GetCodeOffs>
+        <GetCodeOffs>82057848</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>bError</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>82057892</GetCodeOffs>
+        <GetCodeOffs>82057884</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>hrErrorCode</Name>
         <Type GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82057900</GetCodeOffs>
+        <GetCodeOffs>82057892</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nStringSize</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82057880</GetCodeOffs>
+        <GetCodeOffs>82057872</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sResult</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>82057896</GetCodeOffs>
+        <GetCodeOffs>82057888</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -4748,15 +4748,15 @@
         <Name>nId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82057792</GetCodeOffs>
-        <SetCodeOffs>82057816</SetCodeOffs>
+        <GetCodeOffs>82057784</GetCodeOffs>
+        <SetCodeOffs>82057808</SetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sName</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>82057832</GetCodeOffs>
-        <SetCodeOffs>82057844</SetCodeOffs>
+        <GetCodeOffs>82057824</GetCodeOffs>
+        <SetCodeOffs>82057836</SetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -4997,31 +4997,31 @@
         <Name>eSeverity</Name>
         <Type GUID="{B57D3F4A-0836-49B0-81C3-BED5F4817EC9}">TcEventSeverity</Type>
         <BitSize>16</BitSize>
-        <GetCodeOffs>82057948</GetCodeOffs>
+        <GetCodeOffs>82057940</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>ipSourceInfo</Name>
         <Type Namespace="LCLS_General.Tc3_EventLogger">I_TcSourceInfo</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82057928</GetCodeOffs>
+        <GetCodeOffs>82057920</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nEventId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82058016</GetCodeOffs>
+        <GetCodeOffs>82058008</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nUniqueId</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82058020</GetCodeOffs>
+        <GetCodeOffs>82058012</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sEventClassName</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>82057976</GetCodeOffs>
+        <GetCodeOffs>82057968</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -5033,7 +5033,7 @@
         <Name>sEventText</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>82058024</GetCodeOffs>
+        <GetCodeOffs>82058016</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -5626,7 +5626,7 @@
         <Name>nTimeSent</Name>
         <Type>ULINT</Type>
         <BitSize>64</BitSize>
-        <GetCodeOffs>82058052</GetCodeOffs>
+        <GetCodeOffs>82058044</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcDisplayTypeGUID</Name>
@@ -23885,14 +23885,14 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type>BOOL</Type>
         <Comment> is TRUE if a buffer is available.</Comment>
         <BitSize>8</BitSize>
-        <GetCodeOffs>82061256</GetCodeOffs>
+        <GetCodeOffs>82061248</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nBufferSize</Name>
         <Type>UDINT</Type>
         <Comment> current buffer size in bytes.</Comment>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82061208</GetCodeOffs>
+        <GetCodeOffs>82061200</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name RpcEnable="plc" VTableIndex="3">__getnBufferSize</Name>
@@ -24988,7 +24988,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type Namespace="lcls2_cc_lib.lcls_twincat_motion.Tc3_IPCDiag.Tc3_DynamicMemory">I_DynMem_Manager</Type>
         <Comment> dynamic memory manager used in the Tc3_IPCDiag library</Comment>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82061332</GetCodeOffs>
+        <GetCodeOffs>82061324</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name>GetParameterByIdx</Name>
@@ -25647,7 +25647,7 @@ contributing fast faults, unless the FFO is currently vetoed.
         <Type Namespace="lcls2_cc_lib.lcls_twincat_motion.Tc3_IPCDiag.Tc3_DynamicMemory">I_DynMem_Manager</Type>
         <Comment> dynamic memory manager used in the Tc3_IPCDiag library</Comment>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82061388</GetCodeOffs>
+        <GetCodeOffs>82061380</GetCodeOffs>
       </PropertyItem>
       <Method>
         <Name>Clear</Name>
@@ -43968,7 +43968,7 @@ External Setpoint Generation:
         <Name>nTimestamp</Name>
         <Type>ULINT</Type>
         <BitSize>64</BitSize>
-        <GetCodeOffs>82063992</GetCodeOffs>
+        <GetCodeOffs>82063984</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcDisplayTypeGUID</Name>
@@ -45896,31 +45896,31 @@ External Setpoint Generation:
         <Name>bBusy</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>82063544</GetCodeOffs>
+        <GetCodeOffs>82063536</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>bError</Name>
         <Type>BOOL</Type>
         <BitSize>8</BitSize>
-        <GetCodeOffs>82063588</GetCodeOffs>
+        <GetCodeOffs>82063580</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>hrErrorCode</Name>
         <Type GUID="{18071995-0000-0000-0000-000000000019}">HRESULT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82063552</GetCodeOffs>
+        <GetCodeOffs>82063544</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>nStringSize</Name>
         <Type>UDINT</Type>
         <BitSize>32</BitSize>
-        <GetCodeOffs>82063576</GetCodeOffs>
+        <GetCodeOffs>82063568</GetCodeOffs>
       </PropertyItem>
       <PropertyItem>
         <Name>sEventText</Name>
         <Type>STRING(255)</Type>
         <BitSize>2048</BitSize>
-        <GetCodeOffs>82063596</GetCodeOffs>
+        <GetCodeOffs>82063588</GetCodeOffs>
         <Properties>
           <Property>
             <Name>TcEncoding</Name>
@@ -71142,7 +71142,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
           <AreaNo AreaType="InputDst" CreateSymbols="true">0</AreaNo>
           <Name>SerialIO Inputs</Name>
           <ContextId>0</ContextId>
-          <ByteSize>83034112</ByteSize>
+          <ByteSize>82903040</ByteSize>
           <Symbol>
             <Name>GVL_SerialIO.Serial_stComIn_M1L0</Name>
             <Comment> M1L0 In Serial Comm Array</Comment>
@@ -71157,7 +71157,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656260992</BitOffs>
+            <BitOffs>656260928</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_SerialIO.Serial_stComIn_M2L0</Name>
@@ -71173,14 +71173,14 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656261376</BitOffs>
+            <BitOffs>656261312</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="OutputSrc" CreateSymbols="true">1</AreaNo>
           <Name>SerialIO Outputs</Name>
           <ContextId>0</ContextId>
-          <ByteSize>83034112</ByteSize>
+          <ByteSize>82903040</ByteSize>
           <Symbol>
             <Name>GVL_SerialIO.Serial_stComOut_M1L0</Name>
             <Comment> M1L0 Out Serual Comm Array</Comment>
@@ -71195,7 +71195,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656261184</BitOffs>
+            <BitOffs>656261120</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_SerialIO.Serial_stComOut_M2L0</Name>
@@ -71211,27 +71211,27 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656261568</BitOffs>
+            <BitOffs>656261504</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="Internal" CreateSymbols="true">3</AreaNo>
           <Name>SerialIO Internal</Name>
           <ContextId>0</ContextId>
-          <ByteSize>83034112</ByteSize>
+          <ByteSize>82903040</ByteSize>
           <Symbol>
             <Name>P_Serial_Com.fbSerialLineControl_EL6001_M1L0</Name>
             <Comment> M1L0 Serial Comm Function Block</Comment>
             <BitSize>10432</BitSize>
             <BaseType Namespace="Tc2_SerialCom">SerialLineControl</BaseType>
-            <BitOffs>650280480</BitOffs>
+            <BitOffs>650280416</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_Serial_Com.fbSerialLineControl_EL6001_M2L0</Name>
             <Comment> M2L0 Serial Comm Function Block</Comment>
             <BitSize>10432</BitSize>
             <BaseType Namespace="Tc2_SerialCom">SerialLineControl</BaseType>
-            <BitOffs>650290912</BitOffs>
+            <BitOffs>650290848</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_COM_Buffers.Serial_RXBuffer_M1L0</Name>
@@ -71243,7 +71243,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654305600</BitOffs>
+            <BitOffs>654305536</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_COM_Buffers.Serial_TXBuffer_M1L0</Name>
@@ -71254,7 +71254,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654308112</BitOffs>
+            <BitOffs>654308048</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_COM_Buffers.Serial_RXBuffer_M2L0</Name>
@@ -71266,7 +71266,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654310624</BitOffs>
+            <BitOffs>654310560</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_COM_Buffers.Serial_TXBuffer_M2L0</Name>
@@ -71277,7 +71277,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654313136</BitOffs>
+            <BitOffs>654313072</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._AppInfo</Name>
@@ -71291,7 +71291,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656267712</BitOffs>
+            <BitOffs>656267648</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskPouOid_SerialIO</Name>
@@ -71305,7 +71305,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656272832</BitOffs>
+            <BitOffs>656272768</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskOid_SerialIO</Name>
@@ -71319,7 +71319,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656272864</BitOffs>
+            <BitOffs>656272800</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList.__SerialIO</Name>
@@ -71340,14 +71340,14 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656273024</BitOffs>
+            <BitOffs>656272960</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="Internal" CreateSymbols="true">19</AreaNo>
           <Name>PiezoDriver Internal</Name>
           <ContextId>1</ContextId>
-          <ByteSize>83034112</ByteSize>
+          <ByteSize>82903040</ByteSize>
           <Symbol>
             <Name>PiezoSerial.fbE621SerialDriver_M1L0</Name>
             <Comment>PI Serial</Comment>
@@ -71393,7 +71393,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654315648</BitOffs>
+            <BitOffs>654315584</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2L0.M2L0_Pitch</Name>
@@ -71427,7 +71427,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654318400</BitOffs>
+            <BitOffs>654318336</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskPouOid_PiezoDriver</Name>
@@ -71441,7 +71441,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656272896</BitOffs>
+            <BitOffs>656272832</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskOid_PiezoDriver</Name>
@@ -71455,7 +71455,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656272928</BitOffs>
+            <BitOffs>656272864</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList.__PiezoDriver</Name>
@@ -71476,14 +71476,14 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656273728</BitOffs>
+            <BitOffs>656273664</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="InputDst" CreateSymbols="true">32</AreaNo>
           <Name>PlcTask Inputs</Name>
           <ContextId>2</ContextId>
-          <ByteSize>83034112</ByteSize>
+          <ByteSize>82903040</ByteSize>
           <Symbol>
             <Name>lcls_twincat_optics.GVL_TestStructs.TestPitch_LimitSwitches.diEncCnt</Name>
             <Comment>Raw encoder count</Comment>
@@ -74804,7 +74804,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651967168</BitOffs>
+            <BitOffs>651967104</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[1].bLimitForwardEnable</Name>
@@ -74817,7 +74817,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651975168</BitOffs>
+            <BitOffs>651975104</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[1].bLimitBackwardEnable</Name>
@@ -74830,7 +74830,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651975176</BitOffs>
+            <BitOffs>651975112</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[1].bHome</Name>
@@ -74843,7 +74843,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651975184</BitOffs>
+            <BitOffs>651975120</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[1].bHardwareEnable</Name>
@@ -74866,7 +74866,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651975200</BitOffs>
+            <BitOffs>651975136</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[1].nRawEncoderULINT</Name>
@@ -74879,7 +74879,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651975232</BitOffs>
+            <BitOffs>651975168</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[1].nRawEncoderUINT</Name>
@@ -74892,7 +74892,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651975296</BitOffs>
+            <BitOffs>651975232</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[1].nRawEncoderINT</Name>
@@ -74905,7 +74905,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651975312</BitOffs>
+            <BitOffs>651975248</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].Axis.NcToPlc</Name>
@@ -74917,7 +74917,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>651993152</BitOffs>
+            <BitOffs>651993088</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].bLimitForwardEnable</Name>
@@ -74930,7 +74930,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652001152</BitOffs>
+            <BitOffs>652001088</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].bLimitBackwardEnable</Name>
@@ -74943,7 +74943,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652001160</BitOffs>
+            <BitOffs>652001096</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].bHome</Name>
@@ -74956,7 +74956,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652001168</BitOffs>
+            <BitOffs>652001104</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].bHardwareEnable</Name>
@@ -74979,7 +74979,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652001184</BitOffs>
+            <BitOffs>652001120</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].nRawEncoderULINT</Name>
@@ -74992,7 +74992,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652001216</BitOffs>
+            <BitOffs>652001152</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].nRawEncoderUINT</Name>
@@ -75005,7 +75005,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652001280</BitOffs>
+            <BitOffs>652001216</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].nRawEncoderINT</Name>
@@ -75018,7 +75018,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652001296</BitOffs>
+            <BitOffs>652001232</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].Axis.NcToPlc</Name>
@@ -75030,7 +75030,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652019136</BitOffs>
+            <BitOffs>652019072</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].bLimitForwardEnable</Name>
@@ -75043,7 +75043,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652027136</BitOffs>
+            <BitOffs>652027072</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].bLimitBackwardEnable</Name>
@@ -75056,7 +75056,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652027144</BitOffs>
+            <BitOffs>652027080</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].bHome</Name>
@@ -75069,7 +75069,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652027152</BitOffs>
+            <BitOffs>652027088</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].bHardwareEnable</Name>
@@ -75092,7 +75092,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652027168</BitOffs>
+            <BitOffs>652027104</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].nRawEncoderULINT</Name>
@@ -75105,7 +75105,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652027200</BitOffs>
+            <BitOffs>652027136</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].nRawEncoderUINT</Name>
@@ -75118,7 +75118,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652027264</BitOffs>
+            <BitOffs>652027200</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].nRawEncoderINT</Name>
@@ -75131,7 +75131,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652027280</BitOffs>
+            <BitOffs>652027216</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoolingPanel.fbFlow_1.iRaw</Name>
@@ -75144,7 +75144,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652502880</BitOffs>
+            <BitOffs>652502816</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoolingPanel.fbPress_1.iRaw</Name>
@@ -75157,7 +75157,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652503200</BitOffs>
+            <BitOffs>652503136</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoolingPanel.fbFlow_2.iRaw</Name>
@@ -75170,7 +75170,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>652503584</BitOffs>
+            <BitOffs>652503520</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].Axis.NcToPlc</Name>
@@ -75182,7 +75182,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653776960</BitOffs>
+            <BitOffs>653776896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].bLimitForwardEnable</Name>
@@ -75195,7 +75195,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653784960</BitOffs>
+            <BitOffs>653784896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].bLimitBackwardEnable</Name>
@@ -75208,7 +75208,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653784968</BitOffs>
+            <BitOffs>653784904</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].bHome</Name>
@@ -75221,7 +75221,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653784976</BitOffs>
+            <BitOffs>653784912</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].bHardwareEnable</Name>
@@ -75244,7 +75244,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653784992</BitOffs>
+            <BitOffs>653784928</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].nRawEncoderULINT</Name>
@@ -75257,7 +75257,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653785024</BitOffs>
+            <BitOffs>653784960</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].nRawEncoderUINT</Name>
@@ -75270,7 +75270,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653785088</BitOffs>
+            <BitOffs>653785024</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].nRawEncoderINT</Name>
@@ -75283,7 +75283,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653785104</BitOffs>
+            <BitOffs>653785040</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].Axis.NcToPlc</Name>
@@ -75295,7 +75295,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653802944</BitOffs>
+            <BitOffs>653802880</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].bLimitForwardEnable</Name>
@@ -75308,7 +75308,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653810944</BitOffs>
+            <BitOffs>653810880</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].bLimitBackwardEnable</Name>
@@ -75321,7 +75321,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653810952</BitOffs>
+            <BitOffs>653810888</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].bHome</Name>
@@ -75334,7 +75334,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653810960</BitOffs>
+            <BitOffs>653810896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].bHardwareEnable</Name>
@@ -75357,7 +75357,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653810976</BitOffs>
+            <BitOffs>653810912</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].nRawEncoderULINT</Name>
@@ -75370,7 +75370,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653811008</BitOffs>
+            <BitOffs>653810944</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].nRawEncoderUINT</Name>
@@ -75383,7 +75383,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653811072</BitOffs>
+            <BitOffs>653811008</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].nRawEncoderINT</Name>
@@ -75396,7 +75396,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653811088</BitOffs>
+            <BitOffs>653811024</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].Axis.NcToPlc</Name>
@@ -75408,7 +75408,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653828928</BitOffs>
+            <BitOffs>653828864</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].bLimitForwardEnable</Name>
@@ -75421,7 +75421,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653836928</BitOffs>
+            <BitOffs>653836864</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].bLimitBackwardEnable</Name>
@@ -75434,7 +75434,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653836936</BitOffs>
+            <BitOffs>653836872</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].bHome</Name>
@@ -75447,7 +75447,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653836944</BitOffs>
+            <BitOffs>653836880</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].bHardwareEnable</Name>
@@ -75470,7 +75470,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653836960</BitOffs>
+            <BitOffs>653836896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].nRawEncoderULINT</Name>
@@ -75483,7 +75483,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653836992</BitOffs>
+            <BitOffs>653836928</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].nRawEncoderUINT</Name>
@@ -75496,7 +75496,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653837056</BitOffs>
+            <BitOffs>653836992</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].nRawEncoderINT</Name>
@@ -75509,7 +75509,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>653837072</BitOffs>
+            <BitOffs>653837008</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoolingPanel.fbFlow_1.iRaw</Name>
@@ -75522,7 +75522,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>654165088</BitOffs>
+            <BitOffs>654165024</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoolingPanel.fbPress_1.iRaw</Name>
@@ -75535,7 +75535,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>654165408</BitOffs>
+            <BitOffs>654165344</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoolingPanel.fbFlow_2.iRaw</Name>
@@ -75548,7 +75548,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>654165792</BitOffs>
+            <BitOffs>654165728</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_PMPS.fbArbiterIO.i_stCurrentBP</Name>
@@ -75564,7 +75564,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>654167520</BitOffs>
+            <BitOffs>654167456</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_PMPS.fbArbiterIO.xTxPDO_toggle</Name>
@@ -75585,7 +75585,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>654171040</BitOffs>
+            <BitOffs>654170976</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_PMPS.fbArbiterIO.xTxPDO_state</Name>
@@ -75606,7 +75606,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>654171041</BitOffs>
+            <BitOffs>654170977</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M1L0.M1L0_Pitch.diEncCnt</Name>
@@ -75619,7 +75619,7 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>654318080</BitOffs>
+            <BitOffs>654318016</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2L0.M2L0_Pitch.diEncCnt</Name>
@@ -75632,14 +75632,14 @@ The BPTM will throw an error if the arbiter does not have enough space for the t
                 <Value>Input</Value>
               </Property>
             </Properties>
-            <BitOffs>654320832</BitOffs>
+            <BitOffs>654320768</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="OutputSrc" CreateSymbols="true">33</AreaNo>
           <Name>PlcTask Outputs</Name>
           <ContextId>2</ContextId>
-          <ByteSize>83034112</ByteSize>
+          <ByteSize>82903040</ByteSize>
           <Symbol>
             <Name>Main.bTx_Brake_Solenoid</Name>
             <Comment>digital outputs
@@ -76598,7 +76598,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>651966144</BitOffs>
+            <BitOffs>651966080</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[1].bBrakeRelease</Name>
@@ -76611,7 +76611,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>651975192</BitOffs>
+            <BitOffs>651975128</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].Axis.PlcToNc</Name>
@@ -76623,7 +76623,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>651992128</BitOffs>
+            <BitOffs>651992064</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[2].bBrakeRelease</Name>
@@ -76636,7 +76636,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>652001176</BitOffs>
+            <BitOffs>652001112</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].Axis.PlcToNc</Name>
@@ -76648,7 +76648,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>652018112</BitOffs>
+            <BitOffs>652018048</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates.astMotionStageMax[3].bBrakeRelease</Name>
@@ -76661,7 +76661,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>652027160</BitOffs>
+            <BitOffs>652027096</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].Axis.PlcToNc</Name>
@@ -76673,7 +76673,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>653775936</BitOffs>
+            <BitOffs>653775872</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[1].bBrakeRelease</Name>
@@ -76686,7 +76686,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>653784984</BitOffs>
+            <BitOffs>653784920</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].Axis.PlcToNc</Name>
@@ -76698,7 +76698,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>653801920</BitOffs>
+            <BitOffs>653801856</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[2].bBrakeRelease</Name>
@@ -76711,7 +76711,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>653810968</BitOffs>
+            <BitOffs>653810904</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].Axis.PlcToNc</Name>
@@ -76723,7 +76723,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>653827904</BitOffs>
+            <BitOffs>653827840</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates.astMotionStageMax[3].bBrakeRelease</Name>
@@ -76736,7 +76736,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>653836952</BitOffs>
+            <BitOffs>653836888</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.bActivateVarCoolMR2L0</Name>
@@ -76761,7 +76761,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>654020880</BitOffs>
+            <BitOffs>654020816</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_PMPS.fbArbiterIO.q_stRequestedBP</Name>
@@ -76777,7 +76777,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>654169280</BitOffs>
+            <BitOffs>654169216</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_PMPS.nMR1L0_Pitch_ENC_PMPS</Name>
@@ -76793,7 +76793,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>654305472</BitOffs>
+            <BitOffs>654305408</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_FastFaultOutput1.q_xFastFaultOut</Name>
@@ -76813,7 +76813,7 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>654321416</BitOffs>
+            <BitOffs>654321352</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_FastFaultOutput2.q_xFastFaultOut</Name>
@@ -76833,14 +76833,14 @@ DO for Compressed Air Solenoid Actuation on Tx to release brake. Brakes released
                 <Value>Output</Value>
               </Property>
             </Properties>
-            <BitOffs>654816712</BitOffs>
+            <BitOffs>654816648</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="Internal" CreateSymbols="true">35</AreaNo>
           <Name>PlcTask Internal</Name>
           <ContextId>2</ContextId>
-          <ByteSize>83034112</ByteSize>
+          <ByteSize>82903040</ByteSize>
           <Symbol>
             <Name>DefaultGlobals.stSys</Name>
             <Comment>Included for you</Comment>
@@ -85410,14 +85410,14 @@ bM2L0PitchBusy : BOOL;
             <Default>
               <Value>513</Value>
             </Default>
-            <BitOffs>644493120</BitOffs>
+            <BitOffs>644493056</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Main.fbLogHandler</Name>
             <Comment> Logging</Comment>
             <BitSize>5784896</BitSize>
             <BaseType Namespace="LCLS_General">FB_LogHandler</BaseType>
-            <BitOffs>644493184</BitOffs>
+            <BitOffs>644493120</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_CoatingProtections.fbStripProtMR1L0</Name>
@@ -85445,7 +85445,7 @@ bM2L0PitchBusy : BOOL;
                 <String>L0-NICKEL</String>
               </SubItem>
             </Default>
-            <BitOffs>650301824</BitOffs>
+            <BitOffs>650301760</BitOffs>
           </Symbol>
           <Symbol>
             <Name>P_CoatingProtections.fbStripProtMR2L0</Name>
@@ -85473,7 +85473,7 @@ bM2L0PitchBusy : BOOL;
                 <String>B4C</String>
               </SubItem>
             </Default>
-            <BitOffs>650494720</BitOffs>
+            <BitOffs>650494656</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoatingStates</Name>
@@ -85485,19 +85485,19 @@ bM2L0PitchBusy : BOOL;
                 <Value>pv: MR1L0:HOMS:COATING</Value>
               </Property>
             </Properties>
-            <BitOffs>650694208</BitOffs>
+            <BitOffs>650694144</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbYSetup</Name>
             <BitSize>88256</BitSize>
             <BaseType Namespace="lcls_twincat_motion">FB_StateSetupHelper</BaseType>
-            <BitOffs>652211072</BitOffs>
+            <BitOffs>652211008</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbPitchSetup</Name>
             <BitSize>88256</BitSize>
             <BaseType Namespace="lcls_twincat_motion">FB_StateSetupHelper</BaseType>
-            <BitOffs>652299328</BitOffs>
+            <BitOffs>652299264</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.stDefaultPitch</Name>
@@ -85533,7 +85533,7 @@ bM2L0PitchBusy : BOOL;
                 <Bool>true</Bool>
               </SubItem>
             </Default>
-            <BitOffs>652387584</BitOffs>
+            <BitOffs>652387520</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.astCoatingStatesY</Name>
@@ -85543,7 +85543,7 @@ bM2L0PitchBusy : BOOL;
               <LBound>1</LBound>
               <Elements>15</Elements>
             </ArrayInfo>
-            <BitOffs>652391296</BitOffs>
+            <BitOffs>652391232</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.astCoatingStatesPitch</Name>
@@ -85553,7 +85553,7 @@ bM2L0PitchBusy : BOOL;
               <LBound>1</LBound>
               <Elements>15</Elements>
             </ArrayInfo>
-            <BitOffs>652446976</BitOffs>
+            <BitOffs>652446912</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR1L0_HOMS.fbCoolingPanel</Name>
@@ -85575,7 +85575,7 @@ bM2L0PitchBusy : BOOL;
     </Value>
               </Property>
             </Properties>
-            <BitOffs>652502656</BitOffs>
+            <BitOffs>652502592</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoatingStates</Name>
@@ -85587,7 +85587,7 @@ bM2L0PitchBusy : BOOL;
                 <Value>pv: MR2L0:HOMS:COATING</Value>
               </Property>
             </Properties>
-            <BitOffs>652504064</BitOffs>
+            <BitOffs>652504000</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.eStateGet</Name>
@@ -85602,7 +85602,7 @@ bM2L0PitchBusy : BOOL;
     </Value>
               </Property>
             </Properties>
-            <BitOffs>654020864</BitOffs>
+            <BitOffs>654020800</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.bLittleEndian</Name>
@@ -85617,7 +85617,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654020896</BitOffs>
+            <BitOffs>654020832</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.bSimulationMode</Name>
@@ -85632,7 +85632,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654020904</BitOffs>
+            <BitOffs>654020840</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.nRegisterSize</Name>
@@ -85647,13 +85647,13 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654020912</BitOffs>
+            <BitOffs>654020848</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbYSetup</Name>
             <BitSize>88256</BitSize>
             <BaseType Namespace="lcls_twincat_motion">FB_StateSetupHelper</BaseType>
-            <BitOffs>654020928</BitOffs>
+            <BitOffs>654020864</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.astCoatingStatesY</Name>
@@ -85663,7 +85663,7 @@ bM2L0PitchBusy : BOOL;
               <LBound>1</LBound>
               <Elements>15</Elements>
             </ArrayInfo>
-            <BitOffs>654109184</BitOffs>
+            <BitOffs>654109120</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_MR2L0_HOMS.fbCoolingPanel</Name>
@@ -85685,7 +85685,7 @@ bM2L0PitchBusy : BOOL;
     </Value>
               </Property>
             </Properties>
-            <BitOffs>654164864</BitOffs>
+            <BitOffs>654164800</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.nPackMode</Name>
@@ -85700,7 +85700,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654166688</BitOffs>
+            <BitOffs>654166624</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.bFPUSupport</Name>
@@ -85715,7 +85715,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654166704</BitOffs>
+            <BitOffs>654166640</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.bMulticoreSupport</Name>
@@ -85729,14 +85729,14 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654166712</BitOffs>
+            <BitOffs>654166648</BitOffs>
           </Symbol>
           <Symbol>
             <Name>PRG_PMPS.fbArbiterIO</Name>
             <Comment> PMPS arbiter interface</Comment>
             <BitSize>138752</BitSize>
             <BaseType Namespace="PMPS">FB_SubSysToArbiter_IO</BaseType>
-            <BitOffs>654166720</BitOffs>
+            <BitOffs>654166656</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M1L0_Constants.nYUP_ENC_REF</Name>
@@ -85752,7 +85752,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654318144</BitOffs>
+            <BitOffs>654318080</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M1L0_Constants.nYDWN_ENC_REF</Name>
@@ -85766,7 +85766,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654318208</BitOffs>
+            <BitOffs>654318144</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M1L0_Constants.nXUP_ENC_REF</Name>
@@ -85780,7 +85780,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654318272</BitOffs>
+            <BitOffs>654318208</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M1L0_Constants.nXDWN_ENC_REF</Name>
@@ -85794,7 +85794,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654318336</BitOffs>
+            <BitOffs>654318272</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2L0_Constants.nYUP_ENC_REF</Name>
@@ -85810,7 +85810,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654320896</BitOffs>
+            <BitOffs>654320832</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2L0_Constants.nYDWN_ENC_REF</Name>
@@ -85824,7 +85824,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654320960</BitOffs>
+            <BitOffs>654320896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2L0_Constants.nXUP_ENC_REF</Name>
@@ -85838,7 +85838,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654321024</BitOffs>
+            <BitOffs>654320960</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_M2L0_Constants.nXDWN_ENC_REF</Name>
@@ -85852,7 +85852,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654321088</BitOffs>
+            <BitOffs>654321024</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_FastFaultOutput1</Name>
@@ -85884,7 +85884,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654321152</BitOffs>
+            <BitOffs>654321088</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_FastFaultOutput2</Name>
@@ -85915,7 +85915,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>654816448</BitOffs>
+            <BitOffs>654816384</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_fbArbiter1</Name>
@@ -85935,7 +85935,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>655311744</BitOffs>
+            <BitOffs>655311680</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_PMPS.g_fbArbiter2</Name>
@@ -85955,7 +85955,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>655786368</BitOffs>
+            <BitOffs>655786304</BitOffs>
           </Symbol>
           <Symbol>
             <Name>GVL_States.stDefaultY</Name>
@@ -85996,7 +85996,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656261760</BitOffs>
+            <BitOffs>656261696</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.RuntimeVersion</Name>
@@ -86026,7 +86026,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656265472</BitOffs>
+            <BitOffs>656265408</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.CompilerVersion</Name>
@@ -86056,7 +86056,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656265536</BitOffs>
+            <BitOffs>656265472</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.RuntimeVersionNumeric</Name>
@@ -86071,7 +86071,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656265600</BitOffs>
+            <BitOffs>656265536</BitOffs>
           </Symbol>
           <Symbol>
             <Name>Constants.CompilerVersionNumeric</Name>
@@ -86086,7 +86086,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656265632</BitOffs>
+            <BitOffs>656265568</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_LicenseInfoVarList._LicenseInfo</Name>
@@ -86207,7 +86207,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656265664</BitOffs>
+            <BitOffs>656265600</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskInfo</Name>
@@ -86225,7 +86225,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656269760</BitOffs>
+            <BitOffs>656269696</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskPouOid_PlcTask</Name>
@@ -86239,7 +86239,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656272960</BitOffs>
+            <BitOffs>656272896</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList._TaskOid_PlcTask</Name>
@@ -86253,7 +86253,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656272992</BitOffs>
+            <BitOffs>656272928</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TwinCAT_SystemInfoVarList.__PlcTask</Name>
@@ -86274,7 +86274,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656274432</BitOffs>
+            <BitOffs>656274368</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENT_CLASSES.TcSystemEventClass</Name>
@@ -86346,7 +86346,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656292160</BitOffs>
+            <BitOffs>656292096</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENT_CLASSES.TcGeneralAdsEventClass</Name>
@@ -86418,7 +86418,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656292288</BitOffs>
+            <BitOffs>656292224</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENT_CLASSES.TcRouterEventClass</Name>
@@ -86490,7 +86490,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656292416</BitOffs>
+            <BitOffs>656292352</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENT_CLASSES.TcRTimeEventClass</Name>
@@ -86562,7 +86562,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656292544</BitOffs>
+            <BitOffs>656292480</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENT_CLASSES.Win32EventClass</Name>
@@ -86634,7 +86634,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656292672</BitOffs>
+            <BitOffs>656292608</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENT_CLASSES.LCLSGeneralEventClass</Name>
@@ -86706,7 +86706,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656292800</BitOffs>
+            <BitOffs>656292736</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENT_CLASSES.TcIPCDiagEventClass</Name>
@@ -86778,7 +86778,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656292928</BitOffs>
+            <BitOffs>656292864</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENT_CLASSES.TcIPCDiagPlcApiEventClass</Name>
@@ -86850,7 +86850,7 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656293056</BitOffs>
+            <BitOffs>656292992</BitOffs>
           </Symbol>
           <Symbol>
             <Name>TC_EVENTS.LCLSGeneralEventClass</Name>
@@ -86876,14 +86876,14 @@ bM2L0PitchBusy : BOOL;
                 <Name>TcVarGlobal</Name>
               </Property>
             </Properties>
-            <BitOffs>656326208</BitOffs>
+            <BitOffs>656326144</BitOffs>
           </Symbol>
         </DataArea>
         <DataArea>
           <AreaNo AreaType="RetainSrc" CreateSymbols="true">36</AreaNo>
           <Name>PlcTask Retains</Name>
           <ContextId>2</ContextId>
-          <ByteSize>83034112</ByteSize>
+          <ByteSize>82903040</ByteSize>
           <Symbol>
             <Name>PMPS_GVL.SuccessfulPreemption</Name>
             <Comment> Any time BPTM applies a new BP request which is confirmed</Comment>
@@ -86969,7 +86969,7 @@ bM2L0PitchBusy : BOOL;
         </Property>
         <Property>
           <Name>ChangeDate</Name>
-          <Value>2025-02-18T11:29:18</Value>
+          <Value>2025-08-22T15:15:20</Value>
         </Property>
         <Property>
           <Name>GeneratedCodeSize</Name>
