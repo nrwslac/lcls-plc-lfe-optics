@@ -113,9 +113,9 @@
       <DefaultResolution>LCLS General, * (SLAC)</DefaultResolution>
       <Namespace>LCLS_General</Namespace>
     </PlaceholderReference>
-    <PlaceholderReference Include="lcls2-cc-lib">
-      <DefaultResolution>lcls2-cc-lib, * (SLAC)</DefaultResolution>
-      <Namespace>lcls2_cc_lib</Namespace>
+    <PlaceholderReference Include="lcls-twincat-common-components">
+      <DefaultResolution>lcls-twincat-common-components, * (SLAC)</DefaultResolution>
+      <Namespace>lcls_twincat_common_components</Namespace>
     </PlaceholderReference>
     <PlaceholderReference Include="System_VisuElemMeter">
       <DefaultResolution>VisuElemMeter, 3.5.10.0 (System)</DefaultResolution>
@@ -199,22 +199,28 @@
     <LibraryReference Include="lcls-twincat-optics,0.7.0,SLAC">
       <Namespace>lcls_twincat_optics</Namespace>
     </LibraryReference>
-    <LibraryReference Include="PMPS,3.3.0,SLAC - LCLS">
+    <LibraryReference Include="PMPS,3.7.1,SLAC - LCLS">
       <Namespace>PMPS</Namespace>
+      <Parameters>
+        <Parameter ListName="PMPS_PARAM" xmlns="">
+          <Key>TRANS_MARGIN</Key>
+          <Value>REAL#0.05</Value>
+        </Parameter>
+      </Parameters>
     </LibraryReference>
   </ItemGroup>
   <ItemGroup>
     <PlaceholderResolution Include="LCLS General">
       <Resolution>LCLS General, 2.8.2 (SLAC)</Resolution>
     </PlaceholderResolution>
+    <PlaceholderResolution Include="lcls-twincat-common-components">
+      <Resolution>lcls-twincat-common-components, 3.9.0 (SLAC)</Resolution>
+    </PlaceholderResolution>
     <PlaceholderResolution Include="lcls-twincat-motion">
       <Resolution>lcls-twincat-motion, 4.0.9 (SLAC)</Resolution>
     </PlaceholderResolution>
-    <PlaceholderResolution Include="lcls2-cc-lib">
-      <Resolution>lcls2-cc-lib, 2.0.0 (SLAC)</Resolution>
-    </PlaceholderResolution>
     <PlaceholderResolution Include="PMPS">
-      <Resolution>PMPS, 3.3.0 (SLAC - LCLS)</Resolution>
+      <Resolution>PMPS, 3.7.1 (SLAC - LCLS)</Resolution>
     </PlaceholderResolution>
   </ItemGroup>
   <ItemGroup>
